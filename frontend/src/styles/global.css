@@ -1,0 +1,71 @@
+/* Сброс стандартных стилей браузера */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Убираем дефолтные стили для списка */
+ul, ol {
+  list-style: none;
+}
+
+/* Убираем дефолтные стили для ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Убираем дефолтные стили для таблиц */
+table {
+  border-collapse: collapse;
+}
+
+/* Устанавливаем базовые шрифты для всего приложения */
+body {
+  font-family: Arial, sans-serif; /* Можно использовать любой шрифт */
+  background-color: #fafafa; /* Фон страницы */
+  color: #333; /* Цвет текста */
+  line-height: 1.5;
+  min-height: 100vh; /* Обеспечивает, что страница всегда будет иметь высоту на весь экран */
+}
+
+/* Настройка отступов для body */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Устанавливаем стандартный отступ для контейнеров */
+.container {
+  padding: 20px;
+}
+
+/* Базовые стили для изображения */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Для всех input, textarea и других элементов формы */
+input, textarea, select {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Стили для кнопок */
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
